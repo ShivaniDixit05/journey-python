@@ -1,5 +1,16 @@
 # finally code is always executes even if there is an error
 
+try:
+   #statements which could generate 
+   #exception
+except:
+   #solution of generated exception
+finally:
+    #block of code which is going to 
+    #execute in any situation
+
+
+    
 try :
     l = [1 , 4 , 5 ,6]
     i = int(input("Enter the index : "))
