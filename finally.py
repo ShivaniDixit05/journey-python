@@ -25,5 +25,5 @@ def fun():
     finally:
         print("I am always executed")
 
-x = fun()
-print(x)
+A = fun()
+print(A)
