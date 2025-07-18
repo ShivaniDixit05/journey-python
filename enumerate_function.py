@@ -8,3 +8,12 @@ for mark in marks:
     if (index == 3):
         print("Harry , Awesome!")
     index += 1    
+
+# ENUMERATE :
+
+marks = [12 , 45 , 32 , 98 , 45 , 1 , 4 , 36] 
+
+for index , mark in enumerate(marks):
+    print(mark)
+    if(index == 3):
+        print("Harry,Awesome !!!")
