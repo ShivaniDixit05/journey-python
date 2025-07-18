@@ -30,3 +30,17 @@ fruits = ["Banana" , "Sapodilla" , "Cherry" , "Apple" , "Pappaya"]
 
 for index , fruit in enumerate(fruits):
     print(f"{index + 1} : {fruit}")
+
+#  tuple
+
+a = ("Red" , "Blue" , " Green" , "Pink" , "Yellow")
+
+for index , color in enumerate(a , start = 1):
+    print(index , color)
+
+# string
+
+s = "Hello Sarr 🤗"    
+
+for index , string in enumerate(s):
+    print(index , string)
