@@ -17,3 +17,16 @@ for index , mark in enumerate(marks):
     print(mark)
     if(index == 3):
         print("Harry,Awesome !!!")
+
+
+# Changing the start index
+
+fruits = ["Mango" , "Grapes" , "Watermelon" , "BlackBerry"]
+
+for index , fruit in enumerate(fruits , start = 1):
+    print(index , fruit )
+
+fruits = ["Banana" , "Sapodilla" , "Cherry" , "Apple" , "Pappaya"]
+
+for index , fruit in enumerate(fruits):
+    print(f"{index + 1} : {fruit}")
