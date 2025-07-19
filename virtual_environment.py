@@ -1,1 +1,1 @@
-python -m venv
+python -m venv myenv
